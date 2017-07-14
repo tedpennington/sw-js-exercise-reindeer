@@ -11,9 +11,9 @@ for(var i = 0; i < reindeer.length; i++) {
     currentColor = colors[i];
     currentReindeer = reindeer[i];
     console.log(currentColor+ " ", currentReindeer);
-    hohohoElement = currentColor + " " + currentReindeer;
-    console.log("hohohoElement is set to: ", hohohoElement);
-    document.getElementById("reindeer").innerHTML += "<p>" + hohohoElement + "</p>";
+    var combo = currentColor + " " + currentReindeer;
+    console.log("combo is set to: ", combo);
+    hohohoElement.innerHTML += "<p>" + combo + "</p>";
 }
 
 
